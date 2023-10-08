@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: hsl(0, 0%, 95%);
+    padding: 15px;
+    color: white;
+}
+
+.main {
+    width: 100%;
+    
+}
+
+.sedan {
+    background: hsl(31, 77%, 52%);
+    padding: 30px;
+}
+
+.suv {
+    background: hsl(184, 100%, 22%);
+    padding: 30px;
+}
+
+.luxury {
+    background: hsl(179, 100%, 13%);
+    padding: 30px;
+}
+
+.title {
+    margin-top: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+}
+
+.description {
+    margin-top: 20px;
+    margin-bottom: 35px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 25px;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+#button_1 {
+    color: hsl(31, 77%, 52%);
+}
+#button_2 {
+    color: hsl(184, 100%, 22%);
+}
+#button_3 {
+    color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (min-width: 1000px) {
+    body {
+        background: hsl(0, 0%, 95%);
+    }
+    
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 200px;
+    }
+    
+    .sedan {
+        padding: 37px;
+        background: hsl(31, 77%, 52%);
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 7px;
+    }
+    
+    .suv {
+        padding: 37px;
+        background: hsl(184, 100%, 22%);
+    }
+    
+    .luxury {
+        padding: 37px;
+        background: hsl(179, 100%, 13%);
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+    }
+    
+    .title {
+        margin-top: 25px;
+        font-family: 'Big Shoulders Display', cursive;
+        color: hsl(0, 0%, 95%);
+    }
+    .description {
+        margin-top: 25px;
+        font-family: 'Lexend Deca', sans-serif;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-size: 15px;
+        line-height: 25px;
+    }
+    button {
+        margin-top: 60px;
+        padding: 8px 15px;
+        border-radius: 20px;
+        background: white;
+        border: 0;
+        font-family: 'AR One Sans', sans-serif;
+        font-weight: bold;
+    }
+    #button_1 {
+        color: rgb(213, 140, 4);
+    }
+    #button_2 {
+        color: rgb(34, 98, 106);
+    }
+    #button_3 {
+        color: rgb(6, 64, 44);
+    }
+}
