@@ -17,6 +17,8 @@ body {
 .sedan {
     background: hsl(31, 77%, 52%);
     padding: 30px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
 }
 
 .suv {
@@ -27,6 +29,8 @@ body {
 .luxury {
     background: hsl(179, 100%, 13%);
     padding: 30px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .title {
@@ -74,7 +78,7 @@ button {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 200px;
+        margin-top: 150px;
     }
     
     .sedan {
