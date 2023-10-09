@@ -5,7 +5,7 @@
 
 body {
     background: hsl(0, 0%, 95%);
-    padding: 15px;
+    padding: 20px;
     color: white;
 }
 
@@ -70,44 +70,46 @@ button {
 }
 
 @media only screen and (min-width: 1000px) {
+
     body {
         background: hsl(0, 0%, 95%);
     }
     
-    .main {
+    .main-d {
+        width: 700px;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 150px;
     }
     
-    .sedan {
+    .sedan-d {
         padding: 37px;
         background: hsl(31, 77%, 52%);
-        border-bottom-left-radius: 7px;
-        border-top-left-radius: 7px;
+        border-bottom-left-radius: 7px !important;
+        border-top-left-radius: 7px !important;
         border-top-right-radius: 0;
     }
     
-    .suv {
+    .suv-d {
         padding: 37px;
         background: hsl(184, 100%, 22%);
     }
     
-    .luxury {
+    .luxury-d {
         padding: 37px;
         background: hsl(179, 100%, 13%);
-        border-top-right-radius: 7px;
-        border-bottom-right-radius: 7px;
+        border-top-right-radius: 7px !important;
+        border-bottom-right-radius: 7px !important;
         border-bottom-left-radius: 0;
     }
     
-    .title {
+    .title-d {
         margin-top: 25px;
         font-family: 'Big Shoulders Display', cursive;
         color: hsl(0, 0%, 95%);
     }
-    .description {
+    .description-d {
         margin-top: 25px;
         font-family: 'Lexend Deca', sans-serif;
         color: hsla(0, 0%, 100%, 0.75);
@@ -123,13 +125,13 @@ button {
         font-family: 'AR One Sans', sans-serif;
         font-weight: bold;
     }
-    #button_1 {
+    #button_1-d {
         color: rgb(213, 140, 4);
     }
-    #button_2 {
+    #button_2-d {
         color: rgb(34, 98, 106);
     }
-    #button_3 {
+    #button_3-d {
         color: rgb(6, 64, 44);
     }
 }
